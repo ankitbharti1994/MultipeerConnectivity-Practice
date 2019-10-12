@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0044362351BC3D003E5D72 /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0044352351BC3D003E5D72 /* ColorService.swift */; };
 		CE759DDC2351B6DA00B0C108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE759DDB2351B6DA00B0C108 /* AppDelegate.swift */; };
 		CE759DDE2351B6DA00B0C108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE759DDD2351B6DA00B0C108 /* SceneDelegate.swift */; };
 		CE759DE02351B6DA00B0C108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE759DDF2351B6DA00B0C108 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0044352351BC3D003E5D72 /* ColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
 		CE759DD82351B6DA00B0C108 /* MultipeerConnectivity_demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerConnectivity_demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE759DDB2351B6DA00B0C108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE759DDD2351B6DA00B0C108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0044342351BC1D003E5D72 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE0044352351BC3D003E5D72 /* ColorService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		CE759DCF2351B6DA00B0C108 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		CE759DDA2351B6DA00B0C108 /* MultipeerConnectivity_demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				CE0044342351BC1D003E5D72 /* Service */,
 				CE759DDB2351B6DA00B0C108 /* AppDelegate.swift */,
 				CE759DDD2351B6DA00B0C108 /* SceneDelegate.swift */,
 				CE759DDF2351B6DA00B0C108 /* ViewController.swift */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE759DE02351B6DA00B0C108 /* ViewController.swift in Sources */,
+				CE0044362351BC3D003E5D72 /* ColorService.swift in Sources */,
 				CE759DDC2351B6DA00B0C108 /* AppDelegate.swift in Sources */,
 				CE759DDE2351B6DA00B0C108 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83TSUZGC5;
 				INFOPLIST_FILE = MultipeerConnectivity_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83TSUZGC5;
 				INFOPLIST_FILE = MultipeerConnectivity_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
