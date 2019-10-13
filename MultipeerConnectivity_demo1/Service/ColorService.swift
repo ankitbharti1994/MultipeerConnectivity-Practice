@@ -18,10 +18,10 @@ extension MCSessionState {
     var stringValue: String {
         switch self {
         case .notConnected:
-            return "Not Connected"
+            return "Disconnected"
             
         case .connecting:
-            return "Connecting"
+            return "Connecting..."
             
         case .connected:
             return "Connected"

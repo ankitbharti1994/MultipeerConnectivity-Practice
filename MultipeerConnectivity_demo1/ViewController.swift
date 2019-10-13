@@ -44,7 +44,13 @@ class ViewController: UIViewController {
 extension ViewController: ColorServiceDelegate {
     func connectedDevicesChanged(manager: ColorService, state: String, connectedDevices: [String]) {
         OperationQueue.main.addOperation {
-            self.connectionlabel.text = "\(state): \(connectedDevices)"
+            switch state {
+            case "Connected":
+                self.connectionlabel.text = "\(state): \(connectedDevices.first ?? "")"
+                
+            default:
+                self.connectionlabel.text = state
+            }
         }
     }
     
